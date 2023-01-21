@@ -2,64 +2,56 @@
 <head>
     <link rel="stylesheet" href="UploadStastics.css">
     <div class="toppart"> 
-        <a href="C:\Users\rushi\OneDrive\Desktop\Test2\Index\index.html">Home</a> 
+        <a href="C:\Users\rushi\OneDrive\Desktop\Test2\HTML and CSS code\Index\index.html">Home</a> 
         <a href="C:\Users\rushi\OneDrive\Desktop\Test2\Index\index.html">About</a> 
      <a href="C:\Users\rushi\OneDrive\Desktop\Test2\Prevention\Prevention.html">Prevention/Treatment</a> 
+     <script src="UploadStastics.js"></script>
     </div>
 </head>
 <body>
 
     <div class="textbox">
-        <label for="Gender">Gender:</label> 
+        <label for="Gender">What is your gender?:</label> 
         <br>
         <input type="radio" id="Gender" name="gender">Male </br>   
         <input type="radio" id="Gender" name="gender">Female </br>
-
-        <label for="age">Age:</label>
-        <input type="number" id="Age" name="age">
-
-        <label for="smoking">Smoking:</label> <br>
+        <br>
+        <label for="age">What is your age?:</label>
+        <input type="number" id="Age" name="age"><br>
+        <br>
+        <label for="smoking">Do you smoke?:</label> <br>
         <input type="radio" id="Smoking" name="smoking">Yes <br>
         <input type="radio" id="Smoking" name="smoking">No <br>
-
-        <label for="yellow-fingers">Yellow-fingers:</label> <br>
+        <br>
+        <label for="yellow-fingers">Do you have yellow-fingers?:</label> <br>
         <input type="radio" id="Yellow-fingers" name="yellow-fingers">Yes <br>
         <input type="radio" id="Yellow-fingers" name="yellow-fingers">No <br>
-
-        <label for="yellow-fingers">Yellow-fingers:</label> <br>
-        <input type="radio" id="Yellow-fingers" name="yellow-fingers">Yes <br>
-        <input type="radio" id="Yellow-fingers" name="yellow-fingers">No <br>
-
-        <label for="Gender">Gender:</label>
-        <input type="radio" id="Gender" name="gender">
-
-        <label for="Gender">Gender:</label>
-        <input type="radio" id="Gender" name="gender">
-
-        <label for="Gender">Gender:</label>
-        <input type="radio" id="Gender" name="gender">
-
-        <label for="Gender">Gender:</label>
-        <input type="radio" id="Gender" name="gender">
-
-        <label for="Gender">Gender:</label>
-        <input type="radio" id="Gender" name="gender">
-
-        <label for="Gender">Gender:</label>
-        <input type="radio" id="Gender" name="gender">
-
-        <label for="Gender">Gender:</label>
-        <input type="radio" id="Gender" name="gender">
-
-        <label for="Gender">Gender:</label>
-        <input type="radio" id="Gender" name="gender">
-
-        <label for="Gender">Gender:</label>
-        <input type="radio" id="Gender" name="gender">
-
-        <label for="Gender">Gender:</label>
-        <input type="radio" id="Gender" name="gender">
-        <button type="button">Submit</button>
+        <br>
+        <label for="anxiety">Are you feeling anxiety?:</label> <br> <input type="radio" id="Anxiety" name="anxiety">Yes <br> <input type="radio" id="Anxiety" name="anxiety">No <br> 
+        <br>
+        <label for="peer-pressure">Are you getting peer-pressured?:</label> <br> <input type="radio" id="Peer-Pressure" name="peer-pressure">Yes <br> <input type="radio" id="Peer-pressure" name="peer-pressure">No <br> 
+        <br>
+        
+        
+        <label for="chronic-disease">Do you have any chronic diseases?:</label> <br> <input type="radio" id="Chronic-disease" name="chronic-disease">Yes <br> <input type="radio" id="Chronic-disease" name="chronic-disease">No <br> 
+        <br>
+        
+        <label for="fatigue">Are you feeling fatigued?:</label> <br> <input type="radio" id="Fatigue" name="fatigue">Yes <br> <input type="radio" id="Fatigue" name="fatigue">No <br> 
+        <br>
+        <label for="allergy">Do you have any allergies?:</label> <br> <input type="radio" id="Allergy" name="allergy">Yes <br> <input type="radio" id="Allergy" name="allergy">No <br>  
+        <br>
+        <label for="wheezing">Are you wheezing?:</label> <br> <input type="radio" id="Wheezing" name="wheezing">Yes <br> <input type="radio" id="Wheezing" name="wheezing">No <br> 
+        <br>
+        <label for="alcohol">Are you consuming alcohol?:</label> <br> <input type="radio" id="Alcohol" name="alcohol">Yes <br> <input type="radio" id="Alcohol" name="alcohol">No <br> 
+        <br>
+        <label for="coughing">Do you cough frequently?:</label> <br> <input type="radio" id="Coughing" name="coughing">Yes <br> <input type="radio" id="Coughing" name="coughing">No <br> 
+        <br>
+        <label for="shortness-of-breath">Do you have shortness of breath?:</label> <br> <input type="radio" id="Shortness-of-breath" name="shortness-of-breath">Yes <br> <input type="radio" id="Shortness-of-breath" name="shortness-of-breath">No <br>
+        <br>
+        <label for="swallowing-difficulty">Do you have swallowing difficulty?:</label> <br> <input type="radio" id="Swallowing-difficulty" name="swallowing-difficulty">Yes <br> <input type="radio" id="Swallowing-difficulty" name="swallowing-difficulty">No <br> 
+        <br>
+        <label for="chest-pain">Do you have chest pain?:</label> <br> <input type="radio" id="Chest-pain" name="chest-pain">Yes <br> <input type="radio" id="Chest-pain" name="chest-pain">No <br> 
+        <button type="submit" id="bt" value="Save data to file" onclick="saveFile()">Submit</button>
            </div>
 
 </body>

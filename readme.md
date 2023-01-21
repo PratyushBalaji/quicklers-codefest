@@ -1,5 +1,11 @@
 # Team : Quicklers
 Members : 
-Pratyuash
-Rishik Tejas
-Rushil Ram
+Pratyush
+Rishik 
+Tejas
+Rushil 
+Ram
+
+ML cancer prediction algorithm (regression model)
+
+Only included melanoma and lung cancer as they are most complete

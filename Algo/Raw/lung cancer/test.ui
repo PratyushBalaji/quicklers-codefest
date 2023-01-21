@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>464</width>
+    <height>614</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color : rgb(80, 80, 84)</string>
+  </property>
+  <widget class="QCheckBox" name="YELLOW_FINGERS">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I have yellow fingers</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>311</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 24pt &quot;.AppleSystemUIFont&quot;;
+color:rgb(254, 203, 235)</string>
+   </property>
+   <property name="text">
+    <string>Check all the boxes that apply</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ALLERGY">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I have allergies</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ANXIETY">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I suffer from anxiety attacks / anxiety</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="WHEEZING">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>360</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I suffer from wheezing</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="PEER_PRESSURE">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>240</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I face peer pressure often</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="SHORTNESS_OF_BREATH">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>420</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I feel shortness of breath</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="FATIGUE">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I feel fatigued often</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ALCOHOL_CONSUMING">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I drink alcohol often</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="SMOKING">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I smoke cigarettes / consume tobacco based products</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>520</y>
+     <width>113</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(180, 255, 170);
+color:rgb(0,0,0)</string>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CHEST_PAIN">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>480</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I have chest pain</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="SWALLOWING_DIFFICULTY">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>450</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I have trouble swallowing</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CHRONIC_DISEASE">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I have a (or multiple) chronic diseases</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="COUGHING">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>390</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I often cough unprovoked / randomly</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>520</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>How old are you?</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="ageBox">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>520</y>
+     <width>48</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(149, 151, 232)</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="female">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>90</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Female</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="male">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>70</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Male</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>I am a :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="final_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>570</y>
+     <width>321</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 19pt &quot;Gill Sans&quot;;
+color:rgb(143, 110, 226)</string>
+   </property>
+   <property name="text">
+    <string>Processing Data...</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

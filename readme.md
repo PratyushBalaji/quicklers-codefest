@@ -8,9 +8,9 @@ Ram
 
 ML cancer prediction algorithm (regression model)
 
-Only included melanoma and lung cancer as they are most complete
 
-Confusion Matrices and Classification Reports of all models : 
+
+# Confusion Matrices and Classification Reports of all models : 
 
 # Skin Cancer (Melanoma)
 Accuracy: 1.0 (100%)

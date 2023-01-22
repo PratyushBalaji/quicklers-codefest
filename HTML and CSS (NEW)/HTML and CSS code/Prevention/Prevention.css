@@ -1,0 +1,53 @@
+.contact
+{
+    color: black;
+    background-color: rgb(237, 234, 234);
+    text-align: center;
+}
+
+.tittle{
+    background-color: rgb(237, 234, 234);
+   text-align: center;
+   color: black; 
+   border: 3px solid pink;
+   
+}
+
+body{
+    background-color: rgb(237, 234, 234); 
+}
+
+.info{
+    text-align: left;
+    padding-right: 700px;
+}
+
+h3{
+    color: gray;
+}
+
+a{
+    text-align: left;
+    color: black;
+}
+
+a:hover{
+    color: lightpink;
+}
+
+.index{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+
+.gray{
+    color: gray;
+}
+.contact
+{
+    color: black;
+    background-color: rgb(237, 234, 234);
+    text-align: center;
+}

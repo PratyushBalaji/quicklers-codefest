@@ -1,0 +1,189 @@
+body{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.toppart{
+    border: 1px solid black;
+}
+
+a{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+color: blue;
+}
+
+
+  
+
+.carousel{
+  
+    height: 100%;
+    width: 100%;
+}
+
+.sflb{
+
+    background-color: rgb(237, 234, 234);
+    
+
+}
+
+.slider-frame{
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 180px;
+    padding-top: 100px;
+  
+}
+
+.slide-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+-webkit-animation-play-state: running;
+
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+    
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+}
+
+p{
+    color: gray;
+    
+}
+
+.card-body{
+    
+    text-align: center;
+}
+
+
+
+
+
+
+.big0{
+    padding-top: 30px;
+    padding-bottom: 30px;
+   float: left;
+text-align: center;
+    width:25%;
+    height:280px;
+    padding-left: 60px;
+}
+
+.card-body{
+    border: 1px solid black;
+}
+.card-body2{
+    border: 1px solid black;
+}
+.card-body3{
+    border: 1px solid black;
+}
+.big{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+    text-align: center;
+    width:25%;
+    height:280px;
+    padding-left: 60px;
+}
+.big1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+text-align: center;
+  width: 25%;
+  height: 280px;
+  padding-left: 60px;
+}
+
+.aiwi{
+    padding-left: 250px;
+    border: 1px gray;
+}
+
+.contact
+{
+    color: black;
+    background-color: rgb(237, 234, 234);
+    text-align: center;
+}
+
+.cancer{
+    background-image: url('image.png');
+    padding-left: 100px;
+    padding-right: 100px;
+ background-position: center;
+   background-size: cover;
+     display: inline-block;
+  font-family: "arial";
+  height: 100%;
+border: 3px solid lightpink;
+
+}
+
+.ch1{
+font-size: 100px;
+  
+padding-top: 300px;
+padding-left: 30px;
+ overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 2.5s;
+  animation-timing-function: steps(100, 900000);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blinking {
+    0% {border-right-color: transparent}
+    50% {border-right-color: black}
+    100% {border-right-color: transparent}
+  }
+
+
+  
